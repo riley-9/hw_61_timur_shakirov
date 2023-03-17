@@ -1,0 +1,161 @@
+[
+{
+  "model": "task_app.status",
+  "pk": 1,
+  "fields": {
+    "status": "New"
+  }
+},
+{
+  "model": "task_app.status",
+  "pk": 2,
+  "fields": {
+    "status": "In progress"
+  }
+},
+{
+  "model": "task_app.status",
+  "pk": 3,
+  "fields": {
+    "status": "Done"
+  }
+},
+{
+  "model": "task_app.type",
+  "pk": 1,
+  "fields": {
+    "type": "Task"
+  }
+},
+{
+  "model": "task_app.type",
+  "pk": 2,
+  "fields": {
+    "type": "Bug"
+  }
+},
+{
+  "model": "task_app.type",
+  "pk": 3,
+  "fields": {
+    "type": "Enhancement"
+  }
+},
+{
+  "model": "task_app.task",
+  "pk": 1,
+  "fields": {
+    "project": 1,
+    "task": "задача №1",
+    "description": "Описание",
+    "status": 1,
+    "created_at": "2023-03-17T10:55:20.649Z",
+    "changed_at": "2023-03-17T10:56:50.106Z",
+    "type": [
+      2
+    ]
+  }
+},
+{
+  "model": "task_app.task",
+  "pk": 2,
+  "fields": {
+    "project": 2,
+    "task": "Задача № 2",
+    "description": "Описание 123 321",
+    "status": 2,
+    "created_at": "2023-03-17T11:00:17.445Z",
+    "changed_at": "2023-03-17T11:00:17.445Z",
+    "type": [
+      2
+    ]
+  }
+},
+{
+  "model": "task_app.task",
+  "pk": 3,
+  "fields": {
+    "project": 3,
+    "task": "Задача № 3",
+    "description": "выполнил наверное, но это не точно",
+    "status": 3,
+    "created_at": "2023-03-17T11:01:27.955Z",
+    "changed_at": "2023-03-17T11:01:27.955Z",
+    "type": [
+      3
+    ]
+  }
+},
+{
+  "model": "task_app.project",
+  "pk": 1,
+  "fields": {
+    "project": "почитать укус питона",
+    "description": "прочитать книгу укус питона",
+    "start_date": "2023-01-01",
+    "finish_date": "2027-04-15",
+    "created_at": "2023-03-17T09:46:36.927Z",
+    "changed_at": "2023-03-17T09:46:36.927Z"
+  }
+},
+{
+  "model": "task_app.project",
+  "pk": 2,
+  "fields": {
+    "project": "Задача 2",
+    "description": "Поковырять джаву на степике",
+    "start_date": "2023-04-14",
+    "finish_date": "2023-04-15",
+    "created_at": "2023-03-17T10:58:22.526Z",
+    "changed_at": "2023-03-17T10:58:22.526Z"
+  }
+},
+{
+  "model": "task_app.project",
+  "pk": 3,
+  "fields": {
+    "project": "Задача 3",
+    "description": "Повторить пройденный материал",
+    "start_date": "2023-03-17",
+    "finish_date": "2023-03-17",
+    "created_at": "2023-03-17T11:00:53.942Z",
+    "changed_at": "2023-03-17T11:00:53.942Z"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$xjmjjbZW1QPGMVkz4ohqaF$b7BLXl5KPoYAhCe2DpPjQHA2dpQ58U5UAoBknxgO2V8=",
+    "last_login": "2023-03-17T09:45:46.320Z",
+    "is_superuser": true,
+    "username": "tim",
+    "first_name": "",
+    "last_name": "",
+    "email": "tim@adm.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-02-21T13:07:03.830Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$8QaY4KxiCDgPDdVfvHGXJu$RjjO2ttVzwpLho83o0XFs4/Oz10sU02cunauXjbECxU=",
+    "last_login": "2023-03-17T10:57:32.853Z",
+    "is_superuser": true,
+    "username": "user",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-03-17T10:48:32.482Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]

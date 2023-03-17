@@ -1,2 +1,4 @@
 # hw_61_timur_shakirov
-admin - root
+
+user - root - superuser
+user_1 - admin - user
